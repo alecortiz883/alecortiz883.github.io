@@ -1,5 +1,5 @@
 h1{
-color: grey;
+color: white;
 background-color: black;
 text-align: center;
 margin: 0 auto;
@@ -8,7 +8,7 @@ padding: 1px;
 }
 
 #navProgram{
-color: grey;
+color: white;
 background-color: seagreen;
 text-align: center;
 margin: 0 auto;
@@ -17,7 +17,7 @@ padding: 15px;
 }
 
 .navButton{
-color: grey;
+color: white;
 }
 
 .imageProgram {
@@ -36,7 +36,7 @@ flex-wrap: wrap;
 
 #backgroundColor{
 background-color: darkblue;
-color: grey;
+color: white;
 }
 
 .caption{
