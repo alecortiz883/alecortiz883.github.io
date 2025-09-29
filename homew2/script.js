@@ -3,12 +3,12 @@ const spinButton = document.querySelector(".spin_btn");
 const messageDisplay = document.querySelector(".message");
 const winSound = document.getElementById("winSound");
 
-const symbols = ["🍒", "🔔", "🍋", "🍉", "⭐", "7️⃣", "🍊", "🍓", "🍈", "🍍"];
+const symbols = ["🍒", "🥝", "🍇", "🍉", "⭐", "7️⃣", "🍊", "🍓", "🍈", "🍍"];
 
 let reelStates = [
-  ["🍒", "🍒", "🍒", "🍋", "🍋", "🍉"],
-  ["🍒", "🍋", "🍋", "🍉", "🍒", "7️⃣"],
-  ["🍒", "7️⃣", "🍋", "🍒", "🍓", "🍋"]
+  ["🍒", "🍒", "🍒", "🍇", "🍇", "🍉"],
+  ["🍒", "🍇", "🍇", "🍉", "🍒", "7️⃣"],
+  ["🍒", "7️⃣", "🍇", "🍒", "🍓", "🍇"]
 ];
 
 let spinning = false;
@@ -80,7 +80,6 @@ function checkWin() {
   ) {
     const payout = betAmount * 5;
     balance += payout;
-    winSound.play();
     messageDisplay.textContent = " ";
   } else {
     messageDisplay.textContent = " Try Again";
