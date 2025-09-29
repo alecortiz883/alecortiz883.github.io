@@ -1,7 +1,6 @@
 const reels = document.querySelectorAll(".reel");
 const spinButton = document.querySelector(".spin_btn");
 const messageDisplay = document.querySelector(".message");
-const reelSound = document.getElementById("reelSound");
 const winSound = document.getElementById("winSound");
 
 const symbols = ["🍒", "🔔", "🍋", "🍉", "⭐", "7️⃣", "🍊", "🍓", "🍈", "🍍"];
