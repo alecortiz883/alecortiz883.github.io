@@ -35,7 +35,6 @@ spinButton.addEventListener("click", placeBet);
 function spinReels() {
   if (spinning) return;
   spinning = true;
-  reelSound.play();
   messageDisplay.textContent = "Spinning.........";
   reels.forEach((reel, index) => {
     setTimeout(() => {
