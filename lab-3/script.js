@@ -1,4 +1,4 @@
-let answerKey = ["justin", "red", "list", "green", "5"];
+let answerKey = ["Alec", "red", "list", "green", "5"];
 let list = ["red", "blue"];
 let answers = [];
 let numCorrect = 0;
